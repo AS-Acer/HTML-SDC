@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asacer</title>
+    <style>
+        .divOzellik{
+            width: 300px;
+            height: auto;
+            background-color: gray;
+            color: darkblue;
+
+        }
+    </style>
+</head>
+ <!-- 
+    ctrl+alt+aşşağıok -> alt alta satır seçme
+    
+
+    1-alt+shift+f kodları düzenleöek
+    2- ctrl+alt+ aşşağı yukarı imleci büyütüyor birden çok satıra yazma
+    3-alt+aşşa yukarı satır kaydırma
+    4-yazıyı seç ctrl+d aynı olan diğer yazılarıda seçiyor düzeltme imkanı sağlıyor
+    5-ctrl+shift+k satırı siler
+    6-ctrl+enter yeni satır
+        
+    
+    
+    header etiketleri büyükten küçüğe1-6
+        <h2>asacer</h2>
+        <h3>asacer</h3>
+        <h4>asacer</h4>
+        <h5>asacer</h5>
+        <h6>asacer</h6>
+
+        biçimlendirme etiketleri
+            iç içe yazılabilirler
+
+        1-hr :çizgiçeker altına
+        2-br :bir satır boşuk bırakıyor
+        3-strong : kalın yazar 
+        4-b: kalınlaştırmak için kullanılır
+        5-i: italik yazar
+        6-mark: fosforluyla üzerinden geçer
+        7-center: ortalar    
+        8- a: link vermek için kullanınlır içindeki link olacak yazı kısmına image ekleyrek tuş yapabilirsiniz// target="_blank" ile yeni sayfada açılır
+        9-img: resim eklemek için kullanlır
+        10-ol: sıralı ve ul: sırasız liste sıralıda 123 diye gider sırasızda mokta nokta type içinde 1 a A i I yazarak sırayı şekillendirebilir
+        11- table: tablo etiketi (w3schoolsdan bakılabilir)(table içinde border yazarak tablo kenarlıkları oluşturulur) tr satır (tablerow) td bilgi girmeye yarar (tabledata) tr başlık(tablehaeder) th td içine volsapn rowsapn yazarak satıların sütünların birleşimi olduğunu ekleriz
+        12- inline:( örnek span element ) kullanıldığı yer kadar yer kaplayan element block ise tüm satır + üstten alttan bir satır boşluk bırkarak kullanılan elementlerdir
+        13- div: etiketi belirli alanı gruplar 4köşeden kaplar header tagları arasına class açarak tanımlanır devamı css derslerinde şimdilik ezber
+        14-form :veri girilen form oluşturur içerisinde input type girilerek yazı yazılabilecek kısım oluşturulur+ place holder ile yazı yazılabilecek kısımda başlangıçta ne yazacağı girilir+ action ile basınca ne olcağını belirleriz
+        15- input types
+        16-video etiketi ile video eklenir içine video içi kontrol için controls eklenir width height ile en boy ayarlanır
+        17-iframe: sitene başka sayfa gömebiliriz border  width height ile gerisi ayarlanır iframe ile yt videolarıda gömülebilir allowfulscreen ile izin verilir
+        
+        input type sonrası 
+        
+        text yazı
+        
+        password şifre
+        
+        email mail
+        
+        checkbox tikli kutu önce yazılır sonra checkbox eklenir
+        
+        radio yuvarlak işaret kutusu name eklenerek birden çok seçenekten sadece birini seçme özelliği eklenebilir
+        
+        file dosya ekleme butonu ekler 
+        
+        reset sıfırlama butonu ekler value: ile üzerine istedğiğinz yazıyı ekleyebiliriz
+        
+        submit gönder butonu ekler value ile değer girilir
+        
+        text area ile yazı yazacak bir yer açılır 
+        
+        select içine option tagı girilerek seçenekler arasından seçtirme butonu eklenebilir il seçme tuşları gibi
+-->
+
+   
+<body>
+    <center> 
+    <img src="/images/bayrak.jpeg" alt="image not found" width="600" height="350" />
+    <h2>İstiklal Marşı</h2>
+    <p>
+        <pre>
+         Korkma! Sönmez bu şafaklarda yüzen al sancak,
+         Sönmeden yurdumun üstünde tüten en son ocak.
+         O benim milletimin yıldızıdır, parlayacak;
+         O benimdir, o benim milletimindir ancak.
+        </pre>
+    
+    </p>
+    <br>
+         Google'a gitmek için  <a href="https://www.google.com.tr/?hl=tr" target="_blank">tıklayınız</a>
+
+    <br>
+    My github account: 
+    <a href="https://github.com/AS-Acer" target="_blank">
+        <img src="images/git.png" alt="Link bulunamadı" width="60" height="60">
+    </a>
+
+    <br>
+   
+    </center>
+   
+   <div class="divOzellik">
+    <h3>Liste oluşturma örneği</h3>
+    <ol type="1">
+        İç Donanım Bileşenleri<ol type="I">
+            <li>Anakart</li>
+            <li>işlemci</li>
+            <li>Bellek </li>
+        </ol>
+        Dış Donanım Bileşenleri
+        <ol type="1"> 
+            <li>Monitör </li>
+            <ol type="a">
+                <li>LCD</li>
+                <li>LED</li>
+        
+                </ol>
+                <li>Klavye</li>
+                <li>Fare</li>
+        </ol>
+    </ol>
+
+
+<table border="1">
+    <tr>
+        <th colspan="3">Personal İnformations</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+    <td>Ahmet Said </td>
+    <td>Acer</td>
+    <td>20</td>
+</tr>
+</table>
+
+<br>
+
+
+<h2>Table homework</h2>
+<table border="1">
+    <tr>
+        <th colspan="3"> Products</th>
+    </tr>
+    <tr>
+        <th>No</th>
+        <th>Product Name</th>
+        <th>Product Count</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>Pen</td>
+    <td rowspan="3">50</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Book</td>
+        
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Dust</td>
+    </tr>
+</table>
+</div>
+
+<center>
+    <video src="videos/video1.mp4" width="500" height="350" controls></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G2Y82rkxzY0?si=Vt9z2kOBvQuDQCRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+
+<h1>Form etiketleri</h1>
+
+
+    <form>
+        <table>
+        <tr>
+            <th>Kullanıcı adı</th>
+            <td><input type="text" placeholder="isim giriniz"></td>
+        </tr>
+        <tr>
+            <th>Şifre</th>
+            <td><input type="password" placeholder="şifre giriniz"> </td>
+        <tr>
+
+        <tr>
+            <th>Email adresi giriniz</th>
+            <td>
+                    <input type="email" placeholder="email giriniz">
+            </td>
+        </tr>
+        
+        <tr>
+            <th>Telefon numarası giriniz</th>
+            <td>
+                <input type="tel" placeholder="telefon numarası giriniz">
+            </td>
+        </tr>
+
+        <tr>
+
+            <th>Doğum Tarihi</th>
+           <td> <input type="date"></td>
+        </tr>
+        
+        <tr>
+            <th>Cinsiyet Seçiniz </th>
+            <td>  Seçiniz <input type="radio" name="cinsiyetRadio" checked="true">
+                <td>        Erkek <input type="radio" name="cinsiyetRadio"></td>
+                <td>        Kadın <input type="radio" name="cinsiyetRadio"></td>
+        </tr>
+      
+
+        <tr>
+            <td>
+                <td>Resim Seçiniz</td>
+                <td><input type="file" placeholder=" yüklemek istediğiniz resmi seçiniz"></td>
+
+            </td>
+        </tr>
+
+        
+
+     
+
+        <tr>
+            <th><h3>Choose what you want</h3> </th>
+            <td>spor yapmak <input type="checkbox"></td>
+            <td>film izlemek <input type="checkbox"></td>
+            <td>kitap okumak <input type="checkbox"></td> 
+        </tr>
+
+        <tr>
+            <th>
+                <h3>Spor Seçiniz</h3>
+                <td>
+                    Sporlar: <select>
+                        <option>--seçiniz--</option>
+                        <option value="Voleybol">Voleybol</option>
+                        <option value="Futbol">Futbol</option>
+                        <option value="Basketbol">Basketbol</option>
+                        <option value="Yüzme">Yüzme</option>
+                    </select>
+                </td>
+            </th>
+            <th>
+                <h3>Film Seçiniz</h3>
+                <td>
+                    Filmler:  <select>
+                        <option>--seçiniz-- </option>
+                        <option value="the prestige">the prestige</option>
+                        <option value="the menu">the menu</option>
+    
+                        <option value="ın time">ın tıme</option>
+                        <option value="seventh life">seventh life</option>
+                </td>
+            </tr>
+            <th>
+                <h3>Kitap Seçiniz</h3>
+                <td>
+                    Kitaplar: <select>
+                        <option>--seçiniz--</option>
+                        <option value="Sözler">Sözler</option>
+                        <option value="Tutunamayanlar">Tutunamayanlar</option>
+                        <option value="Kaşağı">Kaşağı</option>
+                        <option value="Beyaz Gemi">Beyaz Gemi</option>
+
+
+
+
+                    </select>
+                </td>
+            </th>   
+        </tr>
+      
+        <tr>
+            <th><h3>Dosya Seçiniz</h3></th>
+            <td>
+                <input type="file"> 
+            </td>
+        <tr>
+
+        <tr>
+            <td>
+                <textarea name="notlarım " id="" cols="35" rows="20"></textarea> 
+                <input type="reset" placeholder="sıfırla">
+    
+            </td>
+       </tr>
+
+    </table>
+    </form>
+
+</body>
+</html>
